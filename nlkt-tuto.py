@@ -25,7 +25,7 @@ tokenized_sentences = nltk.sent_tokenize(text)
 
 print(tokenized_sentences)
 
-# Tokenizar sentencias
+# Tokenizar palabras
 tokenized_words = [nltk.word_tokenize(sentence) for sentence in tokenized_sentences]
 
 print(tokenized_words)
